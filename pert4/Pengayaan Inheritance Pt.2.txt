@@ -9,3 +9,10 @@
 4. Bagaimana keyword super membantu membedakan atribut yang memiliki nama sama antara parent dan child?
 
 5. Mengapa pendekatan inheritance lebih efisien dibanding menyalin ulang seluruh atribut dan method ke dalam class Member?
+
+Jawaban
+1. Untuk menginisialisasi atribut yang diwariskan dari Customer.
+2. Untuk memanfaatkan implementasi parent dan menghindari duplikasi kode.
+3. Member menampilkan info Customer terlebih dahulu, lalu menambah poin dan level.
+4. super.atribut mereferensikan atribut dari parent class, sementara this.atribut mereferensikan atribut dari child class.
+5. Inheritance lebih efisien karena tidak ada code duplication, perubahan di parent otomatis terjadi pada child.

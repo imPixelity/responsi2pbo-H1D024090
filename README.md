@@ -2,8 +2,8 @@
 
 **Dibuat oleh:** Dzikry Naufal Permana  
 **NIM:** H1D024090  
-**Shift Baru:** Shift B  
-**Shift KRS:** Shift I  
+**Shift Baru:** B  
+**Shift KRS:** I  
 
 ---
 
