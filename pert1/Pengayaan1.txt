@@ -7,3 +7,10 @@ Apa yang terjadi jika kita mencoba mengubah nilai suatu konstanta setelah objek 
 Bagaimana cara mendefinisikan konstanta dalam bahasa Java?
 
 Jawaban
+- Fungsi adalah method yang mengembalikan nilai (memiliki return type), sedangkan prosedur adalah method yang tidak mengembalikan nilai (menggunakan void).
+- Konstanta penting karena melindungi nilai yang tidak boleh berubah. Keuntungannya adalah menjamin konsistensi data di seluruh program.
+- Compiler akan menolak dengan error "cannot assign a value to final variable".
+Contoh:
+final double faktorAktivitas = 1.2;
+faktorAktivitas = 1.5;
+- Menggunakan keyword final saat deklarasi variabel.
