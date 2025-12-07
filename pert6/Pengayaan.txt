@@ -6,3 +6,10 @@ Setelah menyelesaikan kode, jawab pertanyaan berikut:
 3. Mengapa subclass wajib mengimplementasikan semua abstract method dari parent class?
 4. Mengapa abstract method tidak boleh memiliki isi implementasi di dalam abstract class?
 5. Bagaimana abstract class dapat mendukung konsep polimorfisme, dan mengapa objek yang direferensikan melalui tipe abstract class tetap dapat menjalankan perilaku berbeda pada masing-masing subclass?
+
+Jawaban:
+1. Abstract class adalah class yang tidak bisa diinstansiasi langsung dan memiliki method abstrak. Diperlukan untuk mendefinisikan blueprint/kontrak yang harus diikuti subclass.
+2. Abstract class tidak bisa diinstansiasi, hanya digunakan sebagai parent class, subclass wajib mengimplementasi semua abstract method.
+3. Untuk memastikan setiap subclass memiliki implementasi dari setiap metode abstrak yang didefinisikan dalam abstract class.
+4. Karena tujuan abstract method adalah mendefinisikan kontrak.
+5. Abstract class sebagai reference type memungkinkan kita menyimpan berbagai subclass. Saat method dipanggil, dynamic dispatch menjalankan implementasi spesifik sesuai tipe object aktual.
